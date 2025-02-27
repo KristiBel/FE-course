@@ -1,0 +1,121 @@
+:root {
+  --primary-color: #003366; /* button  */
+  --primary-hover: #002244; /* hover effects */
+  --text-color: #000000; /* text */
+  --gray-text: #777777; /* less important text */
+  --background-color: #f4f4f4; /* page background */
+  --white: #ffffff; /* card background */
+  --border-color: #ccc; /* borders  */
+
+  /* shadows  */
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --box-shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.product-card {
+  background-color: var(--white);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  text-align: left;
+  display: inline-block;
+}
+
+.product-card:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+
+/* OBRAZEK */
+.product-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* STARS */
+.rating .material-icons.gray {
+  color: var(--gray-text);
+}
+
+.price-rating-container {
+  position: relative;
+  padding: 5px 0;
+}
+.rating {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* PRODUCT INFO  */
+
+.product-title {
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.product-category {
+  font-size: 12px;
+  color: var(--gray-text);
+  text-align: left;
+  font-weight: 100;
+}
+
+/* SELECTOR AND BUTTON */
+
+.product-footer {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+/* BUTTON  */
+.cart-button {
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  justify-content: center;
+  flex-grow: 1;
+  display: flex;
+}
+.cart-button .material-icons {
+  font-size: 18px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+.cart-button:hover {
+  background-color: var(--primary-hover);
+}
+
+/* SELRCTOR */
+.quantity-selector {
+  padding: 7px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 14px;
+}
