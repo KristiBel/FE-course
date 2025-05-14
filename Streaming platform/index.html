@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- HEADER -->
+     <header class="site-header">
+        <div class="container header-container">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <img src="img/netflix-logo.png" alt="Netflix Logo" />
+          </a>
+          <!-- Sign-Up Button -->
+          <a href="register.html" class="btn btn-signup">Sign Up</a>
+        </div>
+      </header>  
+
+       <!-- HERO SECTION -->
+       <section class="hero">
+        <div class="container hero-content">
+          <h1 class="hero-title">Unlimited movies, TV shows, and more.</h1>
+          <h2 class="hero-price">Starting at 239 CZK. Cancel anytime.</h2>
+          <p class="hero-prompt">
+            Ready to watch? Enter your email to create or restart your membership.
+          </p>
+
+          <!-- Email Form -->
+          <form class="email-form" action="#" novalidate>
+            <input
+              type="email" class="input-email" placeholder="Enter your email" required/>
+            <button type="submit" class="btn btn-start">Get Started</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- MOST WATCHED SECTION -->
+<section class="most-watched">
+    <div class="container">
+      <h2 class="section-title">Most Watched Movies</h2>
+      <div class="movie-grid">
+        <div class="movie-card">
+          <img src="img/avengers.jpg" alt="Movie 1 Poster" />
+        </div>
+        <div class="movie-card">
+          <img src="img/bugs-life.jpeg" alt="Movie 2 Poster" />
+        </div>
+        <div class="movie-card">
+          <img src="img/thor.jpeg" alt="Movie 3 Poster" />
+        </div>
+      </div>
+      <div class="more-btn-container">
+        <a href="search.html" class="btn btn-more">Find More Movies</a>
+      </div>
+    </div>
+  </section>
+ <!-- FOOTER -->
+ <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <ul class="footer-col">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul class="footer-col">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+        <ul class="footer-col">
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+        </ul>
+        <ul class="footer-col">
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Only on Netflix</a></li>
+        </ul>
+      </div>
+      <p class="footer-note">© 2025 Netflix, Inc.</p>
+    </div>
+  </footer>
+
+    <!-- Scroll-to-Top Button -->
+    <button id="scrollToTopBtn" aria-label="Back to top">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        class="scroll-icon"
+      >
+        <path
+          d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256
+             256 0 1 0 256 0a256 256 0 1 0 0 512zM151.2 217.4c-4.6 4.2-7.2
+             10.1-7.2 16.4c0 12.3 10 22.3 22.3 22.3l41.7 0 0 96c0 17.7
+             14.3 32 32 32l32 0c17.7 0 32-14.3 32-32l0-96 41.7 0c12.3 0
+             22.3-10 22.3-22.3c0-6.2-2.6-12.1-7.2-16.4l-91-84c-3.8-3.5-8.7-5.4
+             -13.9-5.4s-10.1 1.9-13.9 5.4l-91 84z"
+        />
+      </svg>
+    </button>
+    <script src="script.js"></script>
+</body>
+</html>

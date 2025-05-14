@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-container">
+          <!-- Logo -->
+          <a href="index.html" class="logo">
+            <img src="img/netflix-logo.png" alt="Netflix Logo" />
+          </a>
+          <!-- Back Button -->
+          <a href="index.html" class="btn btn-signup">Back to Home Page</a>
+        </div>
+      </header>  
+      <!-- REGISTER FORM SECTION -->
+  <section class="register">
+    <div class="container">
+      <h2 class="section-title">Create Your Account</h2>
+      <form class="register-form" id="registerForm" novalidate>
+        <label for="firstName">First Name</label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="First Name"
+          required
+        />
+
+        <label for="lastName">Last Name</label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Last Name"
+          required
+        />
+
+        <label for="emailRegister">Email</label>
+        <input
+          type="email"
+          id="emailRegister"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="Confirm Password"
+          required
+        />
+
+        <button type="submit" class="btn btn-start">Sign Up</button>
+      </form>
+    </div>
+  </section>
+
+ <!-- FOOTER -->
+ <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <ul class="footer-col">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+        </ul>
+        <ul class="footer-col">
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Legal Notices</a></li>
+        </ul>
+        <ul class="footer-col">
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+        </ul>
+        <ul class="footer-col">
+          <li><a href="#">Media Center</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Only on Netflix</a></li>
+        </ul>
+      </div>
+      <p class="footer-note">© 2025 Netflix, Inc.</p>
+    </div>
+  </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
